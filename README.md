@@ -11,6 +11,7 @@ pip install django djangorestframework psycopg2-binary django-cors-headers
 
 4. Применить миграции:
 python manage.py makemigrations
+
 python manage.py migrate
 
 5. Запустить сервер:
